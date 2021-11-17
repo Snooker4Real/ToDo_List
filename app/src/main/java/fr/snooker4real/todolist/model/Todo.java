@@ -13,8 +13,7 @@ public class Todo implements Serializable {
     public Todo() {
     }
 
-    public Todo(Long id, String name, String urgency) {
-        this.id = id;
+    public Todo(String name, String urgency) {
         this.name = name;
         this.urgency = urgency;
     }
